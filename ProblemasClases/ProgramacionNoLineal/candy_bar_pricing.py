@@ -2,6 +2,9 @@ from scipy import optimize
 import numpy as np
 import matplotlib.pyplot as plt
 
+#Se considera cargar un precio de una barra de caramelo entre 1.1 y 1.5 para la venta en tres regiones
+
+#Paso1: Calculo la demanda que va a definir mi funcion objetivo
 
 # Demanda en funcion del precio de la unidad (x) para la region 1
 def demanda_region1(x):
@@ -25,6 +28,8 @@ def demanda_region3(x):
     return (9 - 17) / (1.5 - 1.3) * (x - 1.3) + 17
 
 # Funcion objetivo, tengo que poner un menos porque busco maximizar
+
+
 # usando la funcion minimizar y: max(f(x)) = - min(- f(x))
 def f(x):
   return -x * (demanda_region1(x) + demanda_region2(x) + demanda_region3(x))

@@ -3,6 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
 
+#Problema del aeropuerto
+#Objetivo: minimizar la distancia entre los dos puntos
+
 # Defino que L como un número que va a estar fijo
 L = 1
 
