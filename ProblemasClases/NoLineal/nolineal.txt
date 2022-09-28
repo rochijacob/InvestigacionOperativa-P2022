@@ -1,0 +1,4 @@
+
+Constraints
+- si tengo una funcion lineal la puedo agregar con LinearConstraint
+- si no es lineal tengo una funcion (NonLinearConstraint) tengo que definirlo como funciones de scipy

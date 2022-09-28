@@ -1,0 +1,12 @@
+La optimización convexa es aquella en la cual tenemos tanto una función que es convexa
+como un conjunto de factibilidad que es convexo. 
+
+Un conjunto factible convexo es lineal
+
+Convexa + Convexa = Convexa
+
+El maximo de las funciones convexas es concava
+
+No vale la pena randomizar la semilla porque hay un solo optimo global
+
+Si la funcion objetivo es concava y la queremos maximizar el conjunto factible es convexo

@@ -19,9 +19,9 @@ def target_function(x):
     x = np.array(x)
     # Cambiamos el formato de las variables de decision.
     x = x.reshape((4, 3))
-    z = 0
+    z = 0 #representa cuanta plata me entro
     for alpha in range(3):
-        z += x[:, alpha].sum() * price_gasoline[alpha]
+        z += x[:, alpha].sum() * price_gasoline[alpha] #precio*cantidad de galones vendidos
     for i in range(4):
         z -= x[i, :].sum() * cost_input[i]
     return -z 
