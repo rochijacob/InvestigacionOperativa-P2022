@@ -1,6 +1,7 @@
 import picos
 import numpy as np
 #Ejercicio 5
+#Sunny Skies unlimited planeacion estrategica
 
 
 P = picos.Problem()

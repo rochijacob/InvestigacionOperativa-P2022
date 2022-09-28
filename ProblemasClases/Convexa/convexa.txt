@@ -1,5 +1,15 @@
 La optimización convexa es aquella en la cual tenemos tanto una función que es convexa
-como un conjunto de factibilidad que es convexo. 
+como un conjunto de factibilidad que es convexo. Nos asegura que el punto que encontramos es el optimo
+
+Los conjuntos de programacion lineal son convexos. En el conjunto convexo hay un minimo bien definido. Nos va a dar un minimo local
+
+¿Que funciones son convexas?
+- son funciones potenicas siempre que alpha sea mayor a 1 o menor a 0 (a >= 1 p a <= 0)
+- en las potencias x tiene que ser mayor a 0
+- modulos siempre que el modulo elevado sea mayor a 1
+- x al cubo no es convexa
+
+El equivalente es maximizar una concava (a minimizar un problema convexo)
 
 Un conjunto factible convexo es lineal
 
@@ -10,3 +20,25 @@ El maximo de las funciones convexas es concava
 No vale la pena randomizar la semilla porque hay un solo optimo global
 
 Si la funcion objetivo es concava y la queremos maximizar el conjunto factible es convexo
+
+
+Examen anterior
+
+Si quiero minimizar una funcion convexa mi problema es convexo
+
+Si cambio el conjunto factible de mi problema lineal no siempre va a afectar mi solucion
+
+Una funcion no es convexa si su derivada es menor a 0
+
+
+Conjuntos convexos:
+
+Igualdad Lineal - Ax = b
+Desigualdad Lineal Ax >= b
+Desigualdad Circular |x - x_0|^2 >= r^2
+Desigualdad eliptica |A(x - x_0)|^2 >= r^2
+Desigualdad parabolica x_1^2 >= x_2
+Desigualdad Conica |x_1| >= x_2
+
+
+Si un problema de optimizacion es convexo y el conjunto facible es nulo, tiene por lo menos un optimo global, y cualquier optimo local tambien es optimo global
