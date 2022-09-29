@@ -31,7 +31,6 @@ P.add_constraint(x[0] + x[1] == 1)
 P.solve()
 
 print(P.value)
-print('Camino que sigue')
 camino = []
 for index, arrow in enumerate(x):
     if round(arrow) == 1:
