@@ -44,3 +44,7 @@ plt.plot(positions[:, 2], 'o', label='partner')
 plt.plot(positions[:, 3], 'o',  label='NP')
 plt.plot(positions[:, 4], 'o', label='P')
 plt.legend()
+
+print(positions)
+
+plt.show()
